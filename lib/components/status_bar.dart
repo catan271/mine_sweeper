@@ -2,14 +2,13 @@ import 'dart:async';
 
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
-import 'package:flutter_hooks/flutter_hooks.dart';
 import 'package:mine_sweeper/components/digits_display.dart';
 import 'package:mine_sweeper/constants/images.constant.dart';
 import 'package:mine_sweeper/controllers/game.controller.dart';
 import 'package:mine_sweeper/models/game.model.dart';
 import 'package:provider/provider.dart';
 
-class StatusBar extends StatefulHookWidget {
+class StatusBar extends StatefulWidget {
   const StatusBar({super.key});
 
   @override
